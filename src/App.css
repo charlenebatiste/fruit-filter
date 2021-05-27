@@ -1,0 +1,21 @@
+* {
+    text-align: center;
+   
+}
+
+.App{
+    background-color: rgba(255, 192, 203, 0.822);
+    width: 95vw;
+    margin: 0 auto;
+}
+
+h1{
+    padding: .5em;
+    text-decoration: underline;
+}
+
+li{
+    list-style-type: none;
+    margin: 3px;
+    font-size: 1.3em;
+}

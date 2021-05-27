@@ -1,13 +1,15 @@
 import './App.css';
-import List from './components/List'
-import Input from './components/Input'
+import FruitContainer from './components/FruitContainer'
 
 function App() {
+
+  const fruits = ['apple', 'apricot', 'blueberries', 'cantaloupe', 'cherries', 'dewberry', 'elephant fruit', 'fig', 'grapes', 'honeydew', 'pineapple', 'mangos', 'banana', 'avocado', 'kiwi'];
+
   return (
     <div className="App">
      <h1>Fruit Filter</h1>
-     <List />
-     <Input />
+     <FruitContainer fruits={fruits}/>
+     {/* passing the fruits data to a fruits property/attribute to be used in the FuitContainer */}
     </div>
   );
 }
